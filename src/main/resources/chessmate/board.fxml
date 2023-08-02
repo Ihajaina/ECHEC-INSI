@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="boardPane" gridLinesVisible="true" maxHeight="800.0" maxWidth="1000.0" minHeight="800.0" minWidth="1000.0" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chessmate.systems.RenderSystem">
+    <columnConstraints>
+        <!-- Column constraints for the chessboard -->
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <!-- Row constraints for the chessboard -->
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+</GridPane>
